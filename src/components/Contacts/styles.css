@@ -1,0 +1,33 @@
+#container{
+    width:400px;
+    background-color: whitesmoke;
+    padding:20px ;
+
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul,
+li{
+    margin: 10px;;
+    padding:0;
+    list-style-type:circle;
+}
+
+.list{
+    margin: 15px 0;
+    margin-bottom: 2px;
+}
+
+.list > li{
+    background-color:bisque;
+    padding:5px;
+    margin-bottom:2px;
+    display: flex;
+    justify-content: space-between;
+}
